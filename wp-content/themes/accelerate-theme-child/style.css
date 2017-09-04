@@ -21,7 +21,11 @@
 .button {
 	background: none repeat scroll 0 0 #45ac9d;
 }
-
+#masthead nav ul li {
+	float:left;
+	margin:0 10px;
+	
+}
 }
 
 /* blog post on homepage */
@@ -50,4 +54,21 @@
 }
 /* Projects */
 
+article.project {
+	margin:40px 0 0;
+}
 
+aside.project-sidebar{
+	float:left;
+	width:314px;
+	margin: 0 40px 0 0;
+}
+div.project-images {
+	float:left;
+	width:606px;
+}
+div.project-images {
+	display:block;
+	margin-bottom:50px
+	border:1px solid #dddddd;
+}

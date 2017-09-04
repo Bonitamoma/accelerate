@@ -26,11 +26,11 @@
  */
  
  function create_custom_post_types() {
-    register_post_type( 'Projects',
+    register_post_type( 'project',
         array(
             'labels' => array(
-                'name' => __( 'Projects' ),
-                'singular_name' => __( 'Project' )
+                'name' => __( 'project' ),
+                'singular_name' => __( 'project' )
             ),
             'public' => true,
             'has_archive' => true,
