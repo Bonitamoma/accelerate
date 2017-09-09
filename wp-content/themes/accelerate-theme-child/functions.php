@@ -31,10 +31,11 @@
             'labels' => array(
                 'name' => __( 'project' ),
                 'singular_name' => __( 'project' )
-            ),
+				),
             'public' => true,
             'has_archive' => true,
-            'rewrite' => array( 'slug' => 'project' ),
+            'rewrite' => array( 
+						'slug' => 'project' ),
         )
     );
 }
