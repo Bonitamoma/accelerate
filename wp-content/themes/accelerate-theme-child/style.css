@@ -5,70 +5,45 @@
  Author:       Your Name!
  Author URI:   http://example.com
  Template:     accelerate-theme
- Version:      2.0.0
+ Version:      1.0.0
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  accelerate-theme-child
 */
-
 @import url("../accelerate-theme/style.css");
 
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
+
 .button {
 	background: none repeat scroll 0 0 #45ac9d;
 }
-#masthead nav ul li {
-	float:left;
-	margin:0 10px;
-	
-}
-}
-
 /* blog post on homepage */
-.recent-posts {
-	overflow: hidden;
-}
-.blog-post {
-	width: 44.75%;
-	padding-right: 50px;
-	float: left;
-}
+
 .blog-post h4 {
-	font: 16px 'Montserrat';
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	color: #a6a6a6;
 	text-transform: uppercase;
-	margin-top: 0;
+	margin: 2em 0 .5em;
 }
-.blog-post h2 {
-	font: 700 24px 'Montserrat';
-	margin: 36px 0;
+.blog-post h3 {
+	font-size: 1.5em;
 }
-.blog-post .read-more-link {
-	font: 700 15px 'Montserrat';
+.read-more-link {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
-/* Projects */
 
-article.project {
-	margin:40px 0 0;
-}
-
-aside.project-sidebar{
-	float:left;
-	width:314px;
-	margin: 0 40px 0 0;
-}
-div.project-images {
-	float:left;
-	width:606px;
-}
-div.project-images {
-	display:block;
-	margin-bottom:50px
-	border:1px solid #dddddd;
+/* Media Queries */
+@media (min-width: 768px) {
+    .blog-post {
+    	width: 50%;
+    	float: left;
+        margin-bottom: 2em;
+	}
 }
