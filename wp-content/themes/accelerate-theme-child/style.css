@@ -34,9 +34,10 @@
 	font-size: 1.5em;
 }
 .blog-post .read-more-link {
-	font: 700 15px 'Montserrat';
-	color: #45ac9d;
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #a6a6a6;
 	text-transform: uppercase;
+	margin: 2em 0 .5em;
 }
 /* Media Queries */
 @media (min-width: 768px) {
