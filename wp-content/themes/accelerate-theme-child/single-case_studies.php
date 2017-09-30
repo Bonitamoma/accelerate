@@ -33,7 +33,7 @@ get_header(); ?>
 			<p class="read-more-link"><a href="<?php echo $link; ?>">Visit Live Site &rsaquo;</a></p>
 		</aside>
 
-		<div class="case-study-images">
+		<aside class="case-study-images">
 			<?php if($image1) {
 				echo wp_get_attachment_image( $image1, $size );
 			} ?>
@@ -43,7 +43,7 @@ get_header(); ?>
 			<?php if($image3) {
 				echo wp_get_attachment_image( $image3, $size );
 			} ?>
-		</div>
+		</aside>
 	</article>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .main-content -->
