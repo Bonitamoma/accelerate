@@ -30,7 +30,7 @@ get_header(); ?>
 	<?php query_posts('posts_per_page=4&post_type=services'); ?>
 					<!-- the loop -->
 					<?php while ( have_posts() ) : the_post();
-						$image1 = get_field("image_1");
+						$image_1 = get_field("image_1");
 						$size = "medium";
 						?>
 						<li class="individual-services">

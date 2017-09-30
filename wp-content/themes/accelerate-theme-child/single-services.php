@@ -22,7 +22,7 @@ get_header(); ?>
 				$size = "medium";
 				?>
 		<article class ="services-content">
-				<h2><?php echo $service_name(); ?></h2>
+				<h2><?php echo $service_name; ?></h2>
 				<h4><?php echo $service_description; ?></h4>
 				
 			<aside class="services-images">
