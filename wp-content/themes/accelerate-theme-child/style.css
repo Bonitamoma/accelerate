@@ -16,7 +16,7 @@
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 #masthead {
-    background: none repeat scroll 0 0 red;
+    background: none repeat scroll 0 0 #45ac9d;
 }
 .button {
 	background: none repeat scroll 0 0 #45ac9d;
@@ -58,17 +58,10 @@
 .blog-post h3 {
 	font-size: 1.5em;
 }
-<<<<<<< HEAD
 .read-more-link {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	color: #45ac9d;
-=======
-.blog-post .read-more-link {
-	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-	color: #a6a6a6;
->>>>>>> accelerate-child-theme
 	text-transform: uppercase;
-	margin: 2em 0 .5em;
 }
 
 /*Case Studies*/
@@ -154,4 +147,9 @@ div.main-content {
 }
 div.service-contact-us {
 	text-align: center;
+}
+
+/* 404 page  */
+div.primary {
+	font-family: 'Londrina Solid', cursive;
 }
